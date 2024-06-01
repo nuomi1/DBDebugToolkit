@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "DBDebugToolkit",
-            targets: ["DBDebugToolkitObjectiveCCore"]
+            targets: ["DBDebugToolkit"]
         ),
     ],
     targets: [
@@ -53,7 +53,7 @@ let package = Package(
             ]
         ),
         .target(
-            name: "DBDebugToolkitObjectiveCCore",
+            name: "DBDebugToolkit",
             dependencies: [
                 .target(name: "DBDebugToolkitSwiftBase"),
                 .target(name: "DBDebugToolkitSwiftCore"),
@@ -64,7 +64,8 @@ let package = Package(
             ],
             sources: [
                 "Classes/DBDebugToolkit.m",
-            ]
+            ],
+            publicHeadersPath: "Headers"
         )
     ]
 )
