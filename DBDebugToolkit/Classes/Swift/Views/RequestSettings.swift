@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct RequestSettings: UIViewControllerRepresentable {
     let networkToolkit: DBNetworkToolkit

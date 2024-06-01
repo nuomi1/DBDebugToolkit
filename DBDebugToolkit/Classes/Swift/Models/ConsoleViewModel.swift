@@ -1,3 +1,5 @@
+import Foundation
+
 final class ConsoleViewModel: NSObject, ObservableObject {
     let consoleOutputCaptor: DBConsoleOutputCaptor
     let deviceInfoProvider: DBDeviceInfoProvider

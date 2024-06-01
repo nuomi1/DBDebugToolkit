@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct UserInterfaceView: UIViewControllerRepresentable {
     class Delegate: NSObject, DBUserInterfaceTableViewControllerDelegate {

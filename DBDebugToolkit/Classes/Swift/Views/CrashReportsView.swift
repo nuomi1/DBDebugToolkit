@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct CrashReportsView: UIViewControllerRepresentable {
     let crashReportsToolkit: DBCrashReportsToolkit

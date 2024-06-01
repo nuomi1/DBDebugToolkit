@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct CoreDataView: UIViewControllerRepresentable {
     let coreDataToolkit: DBCoreDataToolkit

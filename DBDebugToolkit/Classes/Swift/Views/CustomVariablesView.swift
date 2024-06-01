@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct CustomVariablesView: UIViewControllerRepresentable {
     let customVariables: [String: DBCustomVariable]

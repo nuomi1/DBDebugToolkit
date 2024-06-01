@@ -1,3 +1,5 @@
+import Foundation
+
 public final class MenuViewModel: ObservableObject {
     let performanceToolkit: DBPerformanceToolkit
     let consoleOutputCaptor: DBConsoleOutputCaptor

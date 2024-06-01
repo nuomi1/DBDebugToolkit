@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct PerformanceView: UIViewControllerRepresentable {
     let performanceToolkit: DBPerformanceToolkit

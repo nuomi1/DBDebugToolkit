@@ -1,4 +1,5 @@
-import SwiftUI
+import Foundation
+
 
 final class NetworkViewModel: NSObject, ObservableObject {
     let networkToolkit: DBNetworkToolkit

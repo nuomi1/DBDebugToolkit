@@ -1,4 +1,4 @@
-import SwiftUI
+import Foundation
 
 extension CookiesList {
     final class ViewModel: ObservableObject {

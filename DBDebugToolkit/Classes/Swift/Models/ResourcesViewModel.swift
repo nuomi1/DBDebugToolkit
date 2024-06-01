@@ -1,3 +1,5 @@
+import Foundation
+
 final class ResourcesViewModel: ObservableObject {
     let coreDataToolkit: DBCoreDataToolkit
     let keychainModel: DBTitleValueListViewModel
