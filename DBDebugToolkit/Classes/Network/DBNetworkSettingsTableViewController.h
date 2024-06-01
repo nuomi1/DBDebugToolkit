@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import <DBDebugToolkit/DBNetworkToolkit.h>
+#import <DBNetworkToolkit.h>
 
 /**
  `DBNetworkSettingsTableViewController` is a simple view controller displaying a switch controlling the requests logging.

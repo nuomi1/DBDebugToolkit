@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import <DBDebugToolkit/DBTitleValueListViewModel.h>
+#import <DBTitleValueListViewModel.h>
 
 /**
  `DBTitleValueListTableViewController` is a simple table view controller presenting a list of title-value pairs.

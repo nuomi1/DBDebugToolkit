@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import <DBDebugToolkit/DBRequestModel.h>
+#import <DBRequestModel.h>
 
 /**
  Enum used for `DBBodyPreviewViewController` instance configuration.
