@@ -1,6 +1,10 @@
 import SwiftUI
 import UIKit
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+#endif
+
 struct UserInterfaceView: UIViewControllerRepresentable {
     class Delegate: NSObject, DBUserInterfaceTableViewControllerDelegate {
         func userInterfaceTableViewControllerDidOpenDebuggingInformationOverlay(_ userInterfaceTableViewController: DBUserInterfaceTableViewController!) {

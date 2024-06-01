@@ -1,7 +1,7 @@
 import Foundation
 
 extension URLRequest.CachePolicy {
-    var readableDescription: String {
+    public var readableDescription: String {
         switch self {
         case .reloadIgnoringLocalAndRemoteCacheData:
             return "Reload ignoring local and remote cache data"

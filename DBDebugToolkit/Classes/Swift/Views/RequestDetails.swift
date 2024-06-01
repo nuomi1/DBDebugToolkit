@@ -1,5 +1,9 @@
 import SwiftUI
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+#endif
+
 struct RequestDetails: View {
     let model: DBRequestModel
     @State private var selection = 0

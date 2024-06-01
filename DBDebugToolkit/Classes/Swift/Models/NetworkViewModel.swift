@@ -1,5 +1,8 @@
 import Foundation
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+#endif
 
 final class NetworkViewModel: NSObject, ObservableObject {
     let networkToolkit: DBNetworkToolkit

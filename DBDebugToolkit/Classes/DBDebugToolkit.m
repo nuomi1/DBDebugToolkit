@@ -20,7 +20,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#if SWIFT_PACKAGE
+#else
 #import "DBDebugToolkit.h"
+#endif
+
 #import "DBShakeTrigger.h"
 #import "DBMenuTableViewController.h"
 #import "NSBundle+DBDebugToolkit.h"
@@ -37,7 +41,13 @@
 #import "DBCrashReportsToolkit.h"
 #import "DBTopLevelViewsWrapper.h"
 #import "UIApplication+DBDebugToolkit.h"
+
+#if SWIFT_PACKAGE
+@import DBDebugToolkitSwiftBase;
+@import DBDebugToolkitSwiftCore;
+#else
 #import <DBDebugToolkit/DBDebugToolkit-Swift.h>
+#endif
 
 static NSString *const DBDebugToolkitObserverPresentationControllerPropertyKeyPath = @"containerView";
 

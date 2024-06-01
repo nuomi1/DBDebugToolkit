@@ -1,6 +1,10 @@
 import SwiftUI
 import UIKit
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+#endif
+
 struct CrashReportsView: UIViewControllerRepresentable {
     let crashReportsToolkit: DBCrashReportsToolkit
 

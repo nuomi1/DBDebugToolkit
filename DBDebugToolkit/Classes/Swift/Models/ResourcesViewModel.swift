@@ -1,5 +1,9 @@
 import Foundation
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+#endif
+
 final class ResourcesViewModel: ObservableObject {
     let coreDataToolkit: DBCoreDataToolkit
     let keychainModel: DBTitleValueListViewModel

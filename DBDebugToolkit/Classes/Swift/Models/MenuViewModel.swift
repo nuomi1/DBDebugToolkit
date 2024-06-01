@@ -1,5 +1,9 @@
 import Foundation
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+#endif
+
 public final class MenuViewModel: ObservableObject {
     let performanceToolkit: DBPerformanceToolkit
     let consoleOutputCaptor: DBConsoleOutputCaptor

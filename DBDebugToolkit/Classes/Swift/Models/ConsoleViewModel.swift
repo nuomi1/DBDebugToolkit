@@ -1,5 +1,10 @@
 import Foundation
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+import DBDebugToolkitSwiftBase
+#endif
+
 final class ConsoleViewModel: NSObject, ObservableObject {
     let consoleOutputCaptor: DBConsoleOutputCaptor
     let deviceInfoProvider: DBDeviceInfoProvider

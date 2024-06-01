@@ -1,7 +1,11 @@
 import Foundation
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+#endif
+
 extension DBRequestModel {
-    var responseDescription: String {
+    public var responseDescription: String {
         var value = ""
         if !finished {
             let dateString = DateFormatter.localizedString(

@@ -1,6 +1,10 @@
 import SwiftUI
 import UIKit
 
+#if SWIFT_PACKAGE
+import DBDebugToolkitObjectiveCBase
+#endif
+
 struct RequestBodyPreview: UIViewControllerRepresentable {
     let model: DBRequestModel
     let mode: DBBodyPreviewViewControllerMode

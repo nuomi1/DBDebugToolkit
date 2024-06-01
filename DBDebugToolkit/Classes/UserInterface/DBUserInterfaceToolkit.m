@@ -25,7 +25,12 @@
 #import "UIWindow+DBUserInterfaceToolkit.h"
 #import "NSObject+DBDebugToolkit.h"
 #import "UIColor+DBDebugToolkit.h"
+
+#if SWIFT_PACKAGE
+@import DBDebugToolkitSwiftBase;
+#else
 #import <DBDebugToolkit/DBDebugToolkit-Swift.h>
+#endif
 
 NSString *const DBUserInterfaceToolkitColorizedViewBordersChangedNotification = @"DBUserInterfaceToolkitColorizedViewBordersChangedNotification";
 
